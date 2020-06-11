@@ -9,9 +9,12 @@ Video example: https://www.youtube.com/watch?v=_vMNbsJFbqM
 --------------------------------------------------------------------------------------------
 
 Logic flow:
+
 - find face and track the right eye;
 - calibrate the proper range of allowed space for (comfortable) movement;
+
 (then, frame by frame)
+
 - track the right eye and project its centroid on a virtual keyboard in a "working window";
 - take inputs and, specifically, "press" the key, using blinking detection;
 - updtate a text string and print on screen (and, by just adding a couple of line, on a file).

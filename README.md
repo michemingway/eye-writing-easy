@@ -6,7 +6,11 @@ The algorithm works in real-time on the video-stream from the webcam.
 
 Feel free to use the code, play around with it, improve it, enjoy, learn, and think new ideas!
 
-Video example: https://www.youtube.com/watch?v=_vMNbsJFbqM
+
+Video example https://www.youtube.com/watch?v=_vMNbsJFbqM 
+
+Similar project (drawing with eyes): https://www.youtube.com/watch?v=MQlzBQYI_hI
+
 
 --------------------------------------------------------------------------------------------
 

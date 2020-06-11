@@ -27,7 +27,7 @@ All the necessary functions are in the single file eye_key_funcs.py. The virtual
 
 --------------------------------------------------------------------------------------------
 Requirements: 
-- python2 (python3 works too, just change "print")
+- python2 (python3 works too, just change the prints)
 - opencv
 - numpy
 - dlib (and the trained model shape_predictor_68_face_landmarks.dat; see below)

@@ -6,6 +6,8 @@ The algorithm works in real-time on the video-stream from the webcam.
 
 Video example: https://www.youtube.com/watch?v=_vMNbsJFbqM
 
+--------------------------------------------------------------------------------------------
+
 Logic flow:
 - find face and track the right eye;
 - calibrate the proper range of allowed space for (comfortable) movement;
@@ -13,6 +15,8 @@ Logic flow:
 - track the right eye and project its centroid on a virtual keyboard in a "working window";
 - take inputs and, specifically, "press" the key, using blinking detection;
 - updtate a text string and print on screen (and, by just adding a couple of line, on a file).
+
+--------------------------------------------------------------------------------------------
 
 Notes:
 The python script is highly simplified for didactic purposes, with a basic structure (only main and functions).

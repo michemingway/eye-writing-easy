@@ -4,6 +4,8 @@ This is a short & simple (high-school / BSc level) project of eye tracking and w
 It makes use of machine learning-based facial mapping (landmarks) with dlib + python + openCV, with eyes projection on a virtual keyboard. 
 The algorithm works in real-time on the video-stream from the webcam. 
 
+Feel free to use the code, play around with it, improve it, enjoy, learn, and think new ideas!
+
 Video example: https://www.youtube.com/watch?v=_vMNbsJFbqM
 
 --------------------------------------------------------------------------------------------

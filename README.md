@@ -1,6 +1,6 @@
 # simple eye-writing project
 
-This is a short & simple (high-school / BSc level) project of eye tracking and writing.
+This is a short & simple project of eye tracking and writing.
 It makes use of machine learning-based facial mapping (landmarks) with dlib + python + openCV, with eyes projection on a virtual keyboard. 
 The algorithm works in real-time on the video-stream from the webcam. 
 
@@ -28,7 +28,7 @@ Logic flow:
 --------------------------------------------------------------------------------------------
 
 Notes:
-The python script is highly simplified for didactic purposes, with a basic structure (only main and functions).
+The python script is highly simplified for didactic purposes (high-school / BSc level), with a basic structure (only main and functions).
 All the necessary functions are in the single file eye_key_funcs.py. The virtual keyboard is in projected_keyboard.py.
 
 --------------------------------------------------------------------------------------------

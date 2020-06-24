@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 import time
 import cv2
 import numpy as np
@@ -63,7 +65,7 @@ while(corner<4): # calibration of 4 corners
     # detect faces in frame
     faces = detector(gray_scale_frame)
     if len(faces)> 1:
-        print 'please avoid multiple faces.'
+        print('please avoid multiple faces.')
         sys.exit()
 
     for face in faces:
@@ -89,7 +91,7 @@ while(corner<4): # calibration of 4 corners
         time.sleep(0.3)
         corner = corner + 1
 
-    print calibration_cut, '    len: ', len(calibration_cut)
+    print(calibration_cut, '    len: ', len(calibration_cut))
     show_window('projection', calibration_page)
     show_window('frame', cv2.resize(frame,  (640, 360)))
 
@@ -106,14 +108,14 @@ offset_calibrated_cut = [ x_cut_min, y_cut_min ]
 
 # ----------------- message for user
 # MIC: aggiungi il fattore tempo, i.e., l'immagine si chiude dopo 5 sec, senza input from keyboard
-print 'message for user'
+print('message for user')
 cv2.putText(calibration_page, 'calibration done. please wait for the keyboard...',
             tuple((np.array(size_screen)/5).astype('int')), cv2.FONT_HERSHEY_SIMPLEX, 1.4,(255, 255, 255), 3)
 show_window('projection', calibration_page)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-print 'keyboard appearing'
+print('keyboard appearing')
 # -------------------------------------------------------------------
 
 # ------------------------------------------------------------------- WRITING
@@ -136,7 +138,7 @@ while(True):
 
     faces = detector(gray_scale_frame)  # detect faces in frame
     if len(faces)> 1:
-        print 'please avoid multiple faces..'
+        print('please avoid multiple faces..')
         sys.exit()
 
     for face in faces:
